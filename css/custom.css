@@ -49,3 +49,7 @@
 .block-23 ul li span{
     color: #000 !important;
 }
+
+#section-counter:after {
+    background: #2f89fc00 !important; 
+}
