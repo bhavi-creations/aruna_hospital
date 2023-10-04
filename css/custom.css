@@ -16,3 +16,36 @@
 .ftco-departments .nav-pills .nav-link:after{
     content: unset !important;
 }
+
+.ftco-footer{
+    background-color: #fafafa !important;
+}
+
+.ftco-footer p{
+    color: #000000 !important;
+}
+
+.ftco-footer-social li a{
+    background: rgb(255 255 255 / 0%) !important;
+    border: 1px solid;
+}
+
+.ftco-footer .ftco-footer-widget h2{
+    color: rgb(255 128 1) !important;
+}
+
+.ftco-footer a{
+    color: #000 !important;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span{
+    color: #000 !important
+}
+
+.ftco-footer-social li a span{
+    color: #fff !important;
+}
+
+.block-23 ul li span{
+    color: #000 !important;
+}
