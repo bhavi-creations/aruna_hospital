@@ -1,0 +1,18 @@
+.ftco-departments .nav-pills {
+    display: unset !important;
+}
+
+.ftco-departments .nav-pills .nav-link{
+    width: 100% !important;
+    padding: 10px !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+.ftco-departments .tab-content{
+    margin-top: 0 !important;
+}
+
+.ftco-departments .nav-pills .nav-link:after{
+    content: unset !important;
+}
