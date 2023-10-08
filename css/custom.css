@@ -4,7 +4,7 @@
 
 .ftco-departments .nav-pills .nav-link{
     width: 100% !important;
-    padding: 10px !important;
+    padding: 15px 25px !important;
     font-size: 18px !important;
     font-weight: 400 !important;
 }
@@ -51,7 +51,7 @@
 }
 
 #section-counter:after {
-    background: #2f89fc00 !important; 
+    background: #2c3aa900 !important; 
 }
 
 /* Style for the WhatsApp link */
