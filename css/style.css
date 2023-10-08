@@ -8484,11 +8484,11 @@ h1, h2, h3, h4, h5,
         border-color: #fff;
         color: #2f89fc; }
   .btn.btn-secondary {
-    background: #ff8000;
-    border: 1px solid #ff8000;
+    background: #2c3aa9;
+    border: 1px solid #2c3aa9;
     color: #fff; }
     .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-secondary:active {
-      border: 1px solid #ff8000;
+      border: 1px solid #2c3aa9;
       color: #fff; }
 
 .btn-custom {
@@ -8740,7 +8740,7 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .staff .ftco-social li a {
-      color: #ff8000; }
+      color: #2c3aa9; }
   .staff:hover .ftco-social, .staff:focus .ftco-social {
     opacity: 1;
     top: -40px; }
@@ -8815,13 +8815,13 @@ h1, h2, h3, h4, h5,
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease; }
   .pricing-entry:hover, .pricing-entry:focus {
-    border: 2px solid #ff8000; }
+    border: 2px solid #2c3aa9; }
     .pricing-entry:hover .btn, .pricing-entry:focus .btn {
-      background: #ff8000 !important;
-      border: 1px solid #ff8000 !important;
+      background: #2c3aa9 !important;
+      border: 1px solid #2c3aa9 !important;
       color: #fff !important; }
     .pricing-entry:hover .price, .pricing-entry:focus .price {
-      color: #ff8000; }
+      color: #2c3aa9; }
 
 .block-20 {
   overflow: hidden;
@@ -8971,7 +8971,7 @@ textarea.form-control {
     .ftco-footer .ftco-footer-widget .logo {
       color: #2f89fc; }
       .ftco-footer .ftco-footer-widget .logo span {
-        color: #ff8000; }
+        color: #2c3aa9; }
     .ftco-footer .ftco-footer-widget ul li a span {
       color: #fff; }
     .ftco-footer .ftco-footer-widget .btn-primary {
@@ -9039,7 +9039,7 @@ textarea.form-control {
       transition: all 0.3s ease; }
       .ftco-footer .subscribe-form .form-group .submit:hover {
         cursor: pointer;
-        background: #ff8000 !important; }
+        background: #2c3aa9 !important; }
   .ftco-footer .subscribe-form .icon {
     position: absolute;
     top: 50%;
