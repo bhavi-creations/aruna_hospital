@@ -54,6 +54,13 @@
     background: #2c3aa900 !important; 
 }
 
+.owl-carousel.home-slider{
+    height: 800px !important;
+}
+.owl-carousel.home-slider .slider-item{
+    height: 800px !important;
+}
+
 /* Style for the WhatsApp link */
 .whatsapp-link {
     width: 50px;
