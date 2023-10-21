@@ -54,11 +54,26 @@
     background: #2c3aa900 !important; 
 }
 
-.owl-carousel.home-slider{
+/* Default height for screens wider than 768px */
+.owl-carousel.home-slider,
+.owl-carousel.home-slider .slider-item {
     height: 800px !important;
 }
-.owl-carousel.home-slider .slider-item{
-    height: 800px !important;
+
+/* Adjust height for screens between 576px and 768px */
+@media (min-width: 576px) and (max-width: 768px) {
+    .owl-carousel.home-slider,
+    .owl-carousel.home-slider .slider-item {
+        height: 500px !important;
+    }
+}
+
+/* Adjust height for screens less than 576px (mobile) */
+@media (max-width: 575px) {
+    .owl-carousel.home-slider,
+    .owl-carousel.home-slider .slider-item {
+        height: 200px !important;
+    }
 }
 
 /* Style for the WhatsApp link */
