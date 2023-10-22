@@ -1244,6 +1244,24 @@
 		</div>
 	</footer>
 
+	<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+		  <div class="modal-content">
+			<div class="modal-header popup-div">
+				<button type="button" class="close popup-div-close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+			  <img src="images/dept-5.jpg" class="img-fluid" alt="Full Size Image">
+			  <div class="text-center m-4">
+				<a href="appointment.html" class="btn btn-secondary">Book Appointment</a>
+				</div>
+			</div>
+		  </div>
+		</div>
+	</div>
+
 <!-- WhatsApp link -->
     <a href="https://api.whatsapp.com/send?phone=919493740513" class="whatsapp-link" target="_blank">
         <i class="icon-whatsapp"></i>
@@ -1251,6 +1269,7 @@
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  
 
 
   <script src="js/jquery.min.js"></script>
@@ -1270,6 +1289,12 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
+  <script>
+	$(document).ready(function() {
+	  $('#imageModal').modal('show');
+	});
+	</script>
     
   </body>
 </html>

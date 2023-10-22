@@ -169,3 +169,18 @@
 .hero-wrap .overlay{
     background: #00000087;
 }
+
+.popup-div{
+    position: fixed !important;
+    z-index: 99;
+    top: 10%;
+    right: 25%;
+    border-bottom: 0;
+}
+
+.popup-div-close{
+    background-color: #ff0306 !important;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+}
