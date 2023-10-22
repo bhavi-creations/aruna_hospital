@@ -138,3 +138,34 @@
     color: #ffffff;
     padding: 10px 20px;
 }
+
+.home-slider .owl-item{
+    border: 10px solid #000;
+}
+
+.service-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+.service-section .box{
+    background: linear-gradient(rgba(200, 0, 0, 0.7), rgba(207, 26, 31, 0.7)), url('../images/dept-1.jpg'); /* Replace with your image URL */
+    /* background-image: url("../images/bg_3.jpg"); */
+    /* background-color: #cf1a207f; */
+    padding: 80px 20px;
+}
+
+.service-section .box h2{
+    font-weight: bold;
+    color: #fff;
+}
+
+.service-section .box .btn{
+    background-color: #ffffff;
+    color: #cf1a1f;
+}
+
+.hero-wrap .overlay{
+    background: #00000087;
+}
