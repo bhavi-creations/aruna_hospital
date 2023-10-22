@@ -51,7 +51,7 @@
 }
 
 #section-counter:after {
-    background: #2c3aa900 !important; 
+    background: #cf1a1f00 !important; 
 }
 
 /* Default height for screens wider than 768px */
@@ -96,4 +96,45 @@
     position: -webkit-sticky; /* For Safari/Edge */
     position: sticky;
     top: 20px;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-weight: bold !important;
+    padding-left: 20px;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover{
+    background-color: #cf1a1f;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .active{
+    background-color: #cf1a1f;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.top-section{
+    background-color: #cf1a1f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.dropdown-menu{
+    top: 90%;
+}
+
+.dropdown-item{
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu .dropdown-item:hover, .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu .dropdown-item:focus{
+    background: #cf1a1f;
+    color: #ffffff;
+    padding: 10px 20px;
 }
