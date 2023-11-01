@@ -188,3 +188,13 @@
 .box i{
     font-size: 50px;
 }
+
+.testimony-wrap .text{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.quote{
+    left: 47% !important
+}
