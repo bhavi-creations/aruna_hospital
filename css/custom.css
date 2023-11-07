@@ -198,3 +198,52 @@
 .quote{
     left: 47% !important
 }
+
+/* Add styles for the custom list item and anchor tag */
+.custom-nav-item {
+    position: relative;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .custom-nav-link {
+    display: block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 15px;
+  }
+  
+  /* Define the animation for the gradient background */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 100% 0;
+    }
+  }
+  
+  /* Apply the animation and gradient background to the custom anchor tag */
+  .custom-nav-link {
+    /* background: linear-gradient(to right, #a2ff00, #2a3d91, #ff141c, #dbff00); */
+    background: linear-gradient(to right, brown, rgb(0, 47, 255), rgb(0, 102, 255), maroon, rgb(165, 0, 0) );
+    background-size: 400% 400%;
+    animation: gradientAnimation 4s linear infinite;
+  }
+  
+  /* Add the star at the top right for the custom anchor tag */
+  /* .custom-nav-link::after {
+    content: '★';
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    color: yellow;
+  } */
+  
+  .custom-nav-link:hover{
+    color: #f6f6f6;
+  }
+
+  .custom-nav-link i{
+    color: yellow;
+  }
