@@ -247,3 +247,11 @@
   .custom-nav-link i{
     color: yellow;
   }
+
+  
+  /* Add this CSS to change the dropdown color */
+/* .custom-dropdown {
+    background-color: rgb(21, 1, 5); */
+    /* color: blue; */
+    /* Add any other styles you want for the dropdown */
+/* }  */
