@@ -4,6 +4,9 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -39,6 +42,11 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+
+  *{
+    font-family: 'Inter', sans-serif; 
+  }
 
 html {
   font-family: sans-serif;
