@@ -4404,7 +4404,10 @@ input[type="button"].btn-block {
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125); }
+  /* border: 1px solid  rgba(0, 0, 0, 0.125); */
+  border: 1px solid  black;
+
+ }
   .list-group-item:first-child {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }
@@ -8953,6 +8956,10 @@ textarea.form-control {
 .ftco-section {
   padding: 7em 0;
   position: relative; }
+
+.headinghover h4:hover{
+   color: red;
+}
 
 .ftco-no-pt {
   padding-top: 0; }
