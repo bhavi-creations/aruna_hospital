@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/custom.css">
   </head>
   <body>
-    <section class="top-section d-lg-block d-none fixed-top ">
+    <section class="top-section d-lg-block d-none">
 		<div class="container">
 			<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
 				<div class="col-lg-12 d-none d-md-block">
@@ -53,7 +53,7 @@
 		</div>
 		 
 	</section>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light pt-3 pb-3 position-fixed bg-light w-100 pt-5 mt-4 mb-5" id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light pt-3 pb-3 sticky-header shadow bg-light w-100 " id="ftco-navbar">
 		<div class="container d-flex align-items-center">
 			<a class="navbar-brand" href="index.html">
 				<img src="./images/logo.jpg" alt="Your Logo" width="150">
@@ -77,13 +77,19 @@
 					<li class="nav-item dropdown">
 						<a href="department.html" class="nav-link dropdown-toggle" id="doctorsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
 						<div class="dropdown-menu" aria-labelledby="doctorsDropdown">
-							<a class="dropdown-item" href="general-surgery.html">General Surgery </a>
-							<a class="dropdown-item" href="gynecology.html">Gynecological</a>
-							<a class="dropdown-item" href="neuro-surgery.html">Neuro Surgery</a>
-							<a class="dropdown-item" href="general-medicine.html">General Medicine</a>
-							<a class="dropdown-item" href="urology.html">Urology</a>
-							<a class="dropdown-item" href="orthopedics.html">orthopedics</a>
-							<a class="dropdown-item" href="ent.html">ENT</a>
+							<div class="d-flex">
+								<div class="">
+									<a class="dropdown-item" href="general-surgery.html">General Surgery </a>
+									<a class="dropdown-item" href="gynecology.html">Gynecological</a>
+									<a class="dropdown-item" href="neuro-surgery.html">Neuro Surgery</a>
+									<a class="dropdown-item" href="ent.html">ENT</a>
+								</div>
+								<div>
+									<a class="dropdown-item" href="general-medicine.html">General Medicine</a>
+									<a class="dropdown-item" href="orthopedics.html">Orthopedics</a>
+									<a class="dropdown-item" href="urology.html">Urology</a>
+								</div>
+							</div>
 						</div>
 					</li>
 					<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
@@ -101,8 +107,7 @@
 			</div>
 		</div>
 	</nav>
-    <br>
-    <section class="hero-wrap hero-wrap-2 h-100 pt-5 mt-5" style="background-image: url('images/doctors.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 h-100" style="background-image: url('images/doctors.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
