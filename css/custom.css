@@ -95,7 +95,7 @@
 .sticky-sidebar{
     position: -webkit-sticky; /* For Safari/Edge */
     position: sticky;
-    top: 20px;
+    top: 110px;
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
@@ -255,3 +255,8 @@
     /* color: blue; */
     /* Add any other styles you want for the dropdown */
 /* }  */
+
+.sticky-header{
+    position: sticky;
+    top: 0;
+}
