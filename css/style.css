@@ -9782,3 +9782,10 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    @media (max-width: 375px) {
+      .hero-wrap {
+          margin-bottom: 0%; /* Adjust this value as needed */
+      }
+  }
