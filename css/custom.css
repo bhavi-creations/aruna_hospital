@@ -66,6 +66,10 @@
     .owl-carousel.home-slider .slider-item {
         height: 500px !important;
     }
+
+    .hero-wrap.hero-wrap-2{
+        height: 200px !important;
+    }
 }
 
 /* Adjust height for screens less than 576px (mobile) */
@@ -73,6 +77,10 @@
     .owl-carousel.home-slider,
     .owl-carousel.home-slider .slider-item {
         height: 200px !important;
+    }
+    
+    .hero-wrap.hero-wrap-2{
+        height: 120px !important;
     }
 }
 
