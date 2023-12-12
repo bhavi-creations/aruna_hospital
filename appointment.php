@@ -96,8 +96,8 @@
 						</div>
 					</li>
 					<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
-					<li class="nav-item"><a href="appointment.html" class="nav-link ">Appointment</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="appointment.html" class="nav-link active">Appointment</a></li>
 					<li class="custom-nav-item">
 						<a href="https://coupleclinics.in/" class="custom-nav-link" target="_blank">
 							<i class="icon-star"></i>
@@ -116,79 +116,108 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Contact Us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-2 bread">Appointment</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Appointment <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
     </section>
-
-	<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+		
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter"
+		style="background-color: rgb(189 13 18)" data-stellar-background-ratio="0.5">
 		<div class="container">
-			<div class="row d-flex align-items-stretch no-gutters">
-				<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-					<form action="#">
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Name">
+			<div class="row">
+				<div class="col-md-6 py-5 pr-md-5">
+					<div class="heading-section heading-section-white ftco-animate mb-5">
+						<span class="subheading">Consultation</span>
+						<h2 class="mb-4">GET IN TOUCH</h2>
+						<p>Ready to prioritize your health? Book your consultation online or call us to schedule an appointment.</p>
+					</div>
+					<form action="appointmentform.php" class="appointment-form ftco-animate">
+						<div class="d-md-flex">
+							<div class="form-group">
+								<input name="firstname" type="text" class="form-control" placeholder="First Name">
+							</div>
+							<div class="form-group ml-md-4">
+								<input name="lastname" type="text" class="form-control" placeholder="Last Name">
+							</div>
 						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Email">
+						<div class="d-md-flex">
+							<div class="form-group">
+								<div class="form-field">
+									<div class="select-wrap">
+										<div class="icon"><span class="ion-ios-arrow-down"></span></div>
+										<select name="select" id="" class="form-control">
+											<option   style="color: blue;" value="">Select Your Services</option>
+											<option   style="color: blue;" value="">Neurology</option>
+											<option   style="color: blue;"  value="">Cardiology</option>
+											<option   style="color: blue;" value="">Dental</option>
+											<option   style="color: blue;" value="">Ophthalmology</option>
+											<option   style="color: blue;" value="">Other Services</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-group ml-md-4">
+								<input name="phone" type="text" class="form-control" placeholder="Phone">
+							</div>
 						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Subject">
+						<div class="d-md-flex">
+							<div class="form-group">
+								<div class="input-wrap">
+									<div class="icon"><span class="ion-md-calendar"></span></div>
+									<input name="date" type="text" class="form-control appointment_date" placeholder="Date">
+								</div>
+							</div>
+							<div class="form-group ml-md-4">
+								<div class="form-group">
+									<textarea name="message" id="" cols="30" rows="2" class="form-control"
+										placeholder="Message"></textarea>
+								</div>
+							</div>
 						</div>
-						<div class="form-group">
-							<textarea name="" id="" cols="30" rows="7" class="form-control"
-								placeholder="Message"></textarea>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+						<div class="d-md-flex">
+							<div class="form-group">
+								<input type="submit" value="Appointment" class="btn btn-secondary py-3 px-4">
+							</div>
 						</div>
 					</form>
 				</div>
-				<div class="col-md-6 d-flex align-items-stretch">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15264.383639348627!2d82.2234446!3d16.969832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38281a30382825%3A0xf2485c5dc11ff809!2sAruna%20Hospitals!5e0!3m2!1sen!2sin!4v1696439927085!5m2!1sen!2sin" width="600" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-			</div>
-		</div>
-	</section>
-		
-	<section class="ftco-section contact-section">
-		<div class="container">
-			<div class="row d-flex mb-5 contact-info">
-				<div class="col-md-12 mb-4">
-					<h2 class="h4">Contact Information</h2>
-				</div>
-				<div class="w-100"></div>
-				<div class="col-md-4 d-flex">
-					<div class="bg-light d-flex align-self-stretch box p-4">
-						<p><span>Address:</span> <br />#8-19-4/5, Chaganti Vari Street, Gandhinagar, Ontimamidi Jn, Kakinada
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex">
-					<div class="bg-light d-flex align-self-stretch box p-4">
-						<p><span>Phone:</span> <br />
-							<a href="tel:+91 79979 90181" class="mb-0">
-								<span class="text">+91 79979 90181</span>
-							</a><br />
-							<a href="tel:+91 94937 40513" class="mb-0">
-								<span class="text">+91 94937 40513</span>
-							</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex">
-					<div class="bg-light d-flex align-self-stretch box p-4">
-						<p><span>Email:</span> <br />
-
-							<a href="mailto:info@arunahospital.com" class="mb-0">
-								<span class="text">info@arunahospital.com</span>
-							</a><br />
-							<a href="mailto:arunahospital1@gmail.com" class="mb-0">
-								<span class="text">arunahospital1@gmail.com</span>
-							</a>
-						</p>
+				<div class="col-lg-6 p-5 bg-counter aside-stretch">
+					<h3 class="vr">About Aruna Hospital Facts</h3>
+					<div class="row pt-4 mt-1">
+						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+							<div class="block-18 p-5 bg-light">
+								<div class="text">
+									<strong class="number" data-number="10">0</strong>
+									<span>Years of Experienced</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+							<div class="block-18 p-5 bg-light">
+								<div class="text">
+									<strong class="number" data-number="75">0</strong>
+									<span>Number of Beds</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+							<div class="block-18 p-5 bg-light">
+								<div class="text">
+									<strong class="number" data-number="20">0</strong>
+									<span>Number of Doctors</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+							<div class="block-18 p-5 bg-light">
+								<div class="text">
+									<strong class="number" data-number="100">0</strong>
+									<span>Number of Staffs</span>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
