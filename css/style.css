@@ -9789,3 +9789,43 @@ textarea.form-control {
           margin-bottom: 0%; /* Adjust this value as needed */
       }
   }
+
+  .new_resp{
+    margin-top:  -50px;
+  }
+
+  @media (max-width:776px) {
+    .new_resp{
+      margin-top:  -150px;
+    }
+  }
+
+  @media (max-width:776px) {
+    .response_sm{
+      padding-bottom: 450px;
+    }
+ .font_size{
+    font-size:xx-large;
+  }
+  }
+  @media (min-width:776px) {
+  .responsev_nav{
+    margin-top: 20px;
+
+  }
+  .respo_title{
+    padding-top: 80px;
+  }
+}
+
+@media (max-width:573px) {
+  .responsev_nav{
+   margin-bottom: 100px;
+  }
+  .respo_title{
+    padding-top: 200px;
+  }
+ 
+}
+
+ 
