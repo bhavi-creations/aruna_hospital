@@ -22,18 +22,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'srimadhuraju@gmail.com'; // Your Gmail email address
-        $mail->Password = 'umlpkduhhhajjahi'; // Your Gmail password
+        $mail->Username = 'arunahospital.999@gmail.com'; // Your Gmail email address
+        $mail->Password = 'pqpebfsoifuudbmm'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('srimadhuraju@gmail.com', 'ARUNA HOSPITAL'); // Your Gmail email and name
-        $mail->addAddress('srimadhuraju@gmail.com', 'ARUNA HOSPITAL'); // Recipient's email and name
+        $mail->setFrom('arunahospital.999@gmail.com', 'ARUNA HOSPITAL'); // Your Gmail email and name
+        $mail->addAddress('arunahospital.999@gmail.com', 'ARUNA HOSPITAL'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = 'New Message from ARUNA HOSPITAL';
+        $mail->Subject = 'New Message from appointment form ';
         $mail->Body = "
             <h1>New Message</h1>
             <h1>Appointment</h1>
@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->send();
         echo ("<SCRIPT LANGUAGE='JavaScript'>
         window.alert('Successfully Submitted')
-        window.location.href='appointment.php';
+        window.location.href='index.html';
         </SCRIPT>");
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

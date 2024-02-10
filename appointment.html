@@ -141,7 +141,7 @@
 						<h2 class="mb-4">GET IN TOUCH</h2>
 						<p>Ready to prioritize your health? Book your consultation online or call us to schedule an appointment.</p>
 					</div>
-					<form action="appointmentform.php" class="appointment-form ftco-animate">
+					<form action="appointmentform.php" method="post" class="appointment-form ftco-animate">
 						<div class="d-md-flex">
 							<div class="form-group">
 								<input name="firstname" type="text" class="form-control" placeholder="First Name">
@@ -156,12 +156,11 @@
 									<div class="select-wrap">
 										<div class="icon"><span class="ion-ios-arrow-down"></span></div>
 										<select name="select" id="" class="form-control">
-											<option   style="color: blue;" value="">Select Your Services</option>
-											<option   style="color: blue;" value="">Neurology</option>
-											<option   style="color: blue;"  value="">Cardiology</option>
-											<option   style="color: blue;" value="">Dental</option>
-											<option   style="color: blue;" value="">Ophthalmology</option>
-											<option   style="color: blue;" value="">Other Services</option>
+											<option   style="color: blue;" value="Select Your Services">Select Your Services</option>
+											<option   style="color: blue;" value="Neurology">Neurology</option>
+											<option   style="color: blue;"  value="Cardiology">Cardiology</option>
+											<option   style="color: blue;" value="Dental">Dental</option>
+ 											<option   style="color: blue;" value="Other Services">Other Services</option>
 										</select>
 									</div>
 								</div>
