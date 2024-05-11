@@ -146,9 +146,9 @@
 		<div class="container">
 			<div class="row d-flex align-items-stretch no-gutters mt-2 mb-4">
 				<div class="col-md-12 text-center mt-5 mb-5">
-					<button class="btn btn-primary">Images</button>
-					<button class="btn btn-primary">Videos</button>
-				</div>
+					<a href="gallery.html"><button class="btn btn-primary">Images</button></a>
+					<a href="galleryvideo.html"><button class="btn btn-primary">Videos</button></a>
+			   </div>
 				<div class="col-md-4 p-2 pt-0 mt-2"> 
 					<img src="images/best-multi-speciality-hospital-in-kakinada-aruna-hospital.png" class="img-fluid" alt="im1">
 				</div>
@@ -260,6 +260,30 @@
     <a href="https://api.whatsapp.com/send?phone=919493740513" class="whatsapp-link" target="_blank">
         <i class="icon-whatsapp"></i>
     </a>
+
+ <!-- Scroll Up Button  -->
+ <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
+      
+ <script>
+	 // Function to scroll to the top of the page
+	 function scrollToTop() {
+		 window.scrollTo({
+			 top: 0,
+			 behavior: 'smooth' // Optional, smooth scrolling animation
+		 });
+	 }
+ 
+	 // Show scroll button when scrolling down
+	 window.onscroll = function() {scrollFunction()};
+ 
+	 function scrollFunction() {
+		 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			 document.getElementById("scrollBtn").style.display = "block";
+		 } else {
+			 document.getElementById("scrollBtn").style.display = "none";
+		 }
+	 }
+ </script>
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>

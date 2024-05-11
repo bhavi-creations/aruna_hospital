@@ -354,7 +354,29 @@
     <a href="https://api.whatsapp.com/send?phone=919493740513" class="whatsapp-link" target="_blank">
         <i class="icon-whatsapp"></i>
     </a>
-
+ <!-- Scroll Up Button  -->
+ <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
+      
+ <script>
+	 // Function to scroll to the top of the page
+	 function scrollToTop() {
+		 window.scrollTo({
+			 top: 0,
+			 behavior: 'smooth' // Optional, smooth scrolling animation
+		 });
+	 }
+ 
+	 // Show scroll button when scrolling down
+	 window.onscroll = function() {scrollFunction()};
+ 
+	 function scrollFunction() {
+		 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			 document.getElementById("scrollBtn").style.display = "block";
+		 } else {
+			 document.getElementById("scrollBtn").style.display = "none";
+		 }
+	 }
+ </script>
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 

@@ -165,11 +165,17 @@
 									<div class="select-wrap">
 										<div class="icon"><span class="ion-ios-arrow-down"></span></div>
 										<select name="select" id="" class="form-control">
-											<option   style="color: blue;" value="Select Your Services">Select Your Services</option>
-											<option   style="color: blue;" value="Neurology">Neurology</option>
-											<option   style="color: blue;"  value="Cardiology">Cardiology</option>
-											<option   style="color: blue;" value="Dental">Dental</option>
- 											<option   style="color: blue;" value="Other Services">Other Services</option>
+											<option style="color: blue;" value="">Select Your Services</option>
+											<option style="color: blue;" value="">General Surgery</option>
+											<option style="color: blue;" value="">Gynecological</option>
+											<option style="color: blue;" value="">Neuro Surgery</option>
+											<option style="color: blue;" value="">ENT</option>
+											<option style="color: blue;" value="">Urology</option>
+											<option style="color: blue;" value="">General Medicine</option>
+											<option style="color: blue;" value="">Orthopedics</option>
+											<option style="color: blue;" value="">Physiotherapy</option>
+											<option style="color: blue;" value="">plastic Surgey</option>
+											<option style="color: blue;" value="">Neurology</option>
 										</select>
 									</div>
 								</div>
@@ -329,6 +335,30 @@
     <a href="https://api.whatsapp.com/send?phone=919493740513" class="whatsapp-link" target="_blank">
         <i class="icon-whatsapp"></i>
     </a>
+
+ <!-- Scroll Up Button  -->
+ <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
+      
+ <script>
+	 // Function to scroll to the top of the page
+	 function scrollToTop() {
+		 window.scrollTo({
+			 top: 0,
+			 behavior: 'smooth' // Optional, smooth scrolling animation
+		 });
+	 }
+ 
+	 // Show scroll button when scrolling down
+	 window.onscroll = function() {scrollFunction()};
+ 
+	 function scrollFunction() {
+		 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			 document.getElementById("scrollBtn").style.display = "block";
+		 } else {
+			 document.getElementById("scrollBtn").style.display = "none";
+		 }
+	 }
+ </script>
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
