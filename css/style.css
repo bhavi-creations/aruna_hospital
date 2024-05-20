@@ -8634,7 +8634,8 @@ h1, h2, h3, h4, h5,
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       -ms-border-radius: 0;
-      border-radius: 0; }
+      border-radius: 0; 
+    }
       .ftco-departments .nav-pills .nav-link:after {
         position: absolute;
         bottom: -10px;
