@@ -9801,6 +9801,35 @@ textarea.form-control {
     }
   }
 
+
+ 
+
+
+  .new_resp1{
+    margin-top:  -50px;
+  }
+
+  @media (max-width:776px) {
+    .new_resp1{
+      margin-top:  -150px;
+    }
+  }
+
+
+  @media(min-width:375px)  , (max-width:768px)  {
+
+    .new_resp1{
+      margin-top:  -150px;
+      padding-top: 70px !important;
+    }
+    
+  }
+
+  
+  
+
+
+
   @media (max-width:776px) {
     .response_sm{
       padding-bottom: 450px;
