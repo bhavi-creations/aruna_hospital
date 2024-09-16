@@ -1909,7 +1909,7 @@
 		</div>
 	</footer>
 
-	<!-- <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
+	<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
 		aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered modal-lg">
 			<div class="modal-content">
@@ -1928,7 +1928,7 @@
 				</div>
 			</div>
 		</div>
-	</div>   -->
+	</div>  
 
 	<!-- WhatsApp link -->
 	<a href="https://api.whatsapp.com/send?phone=919493740513" class="whatsapp-link" target="_blank">
