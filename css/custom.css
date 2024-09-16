@@ -120,14 +120,18 @@
     position: sticky;
     top: 110px;
 }
-
-.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    font-weight: bold !important;
-    padding-left: 20px;
+@media (min-width:1173px) {
+    
+    
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+        font-weight: bold !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
-
+ 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover{
     background-color: #cf1a1f;
     border-radius: 50px;
