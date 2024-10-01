@@ -176,6 +176,9 @@
 		<!-- <div class="slider-item" >
 				<img src="images/festival_sliders/ganesh_festivel.png" class="img-fluid" alt="">
 		</div> -->
+		<div class="slider-item" >
+				<img src="images/festival_sliders/aruna hospital gandhi jayanti (slider).png" class="img-fluid" alt="">
+		</div>
 
 
 		<div class="slider-item  ">
