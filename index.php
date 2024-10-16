@@ -176,9 +176,9 @@
 		<!-- <div class="slider-item" >
 				<img src="images/festival_sliders/ganesh_festivel.png" class="img-fluid" alt="">
 		</div> -->
-		<div class="slider-item" >
+		<!-- <div class="slider-item" >
 				<img src="images/festival_sliders/ARUNA DASARA.png" class="img-fluid" alt="">
-		</div>
+		</div> -->
 
 
 		<div class="slider-item  ">
