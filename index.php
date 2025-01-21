@@ -192,7 +192,7 @@
 		</div>
 
 		<div class="slider-item">
-			<img src="images/Best-multi-services-hospital-in-kakinada-aruna-hospital.png" class="img-fluid" alt="">
+			<img src="images/Best-multi-services-hospital-in-kakinada-aruna-hospital-ntr.png" class="img-fluid" alt="">
 
 		</div>
 
@@ -209,10 +209,13 @@
 
 	<section class="container  text-center new_resp1">
 		<div class="row">
-			<div class="col-md-6 align-self-center mb-5">
+			<div class="col-md-4 align-self-center mb-5">
 				<img src="images/24hours_emeregency_aruna_hospital.png" alt="24hours_emeregency" class="img-fluid">
 			</div>
-			<div class="col-md-6 align-self-center mb-5">
+			<div class="col-md-4 align-self-center mb-5">
+				<img src="images/NTRlogo.png" alt="24hours_emeregency" class="img-fluid">
+			</div>
+			<div class="col-md-4 align-self-center mb-5">
 				<img src="images/best_gyencology_aruna_hospital.png" alt="best_gyencology" class="img-fluid">
 			</div>
 		</div>
