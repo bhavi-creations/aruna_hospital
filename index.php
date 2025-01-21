@@ -60,7 +60,7 @@
 
 </head>
 
-<body>
+<>
 	<section class="top-section d-lg-block d-none ">
 		<div class="container">
 			<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
@@ -1565,7 +1565,7 @@
 			<div class="mt-5 d-none d-md-block">
 				<a href="blog.php" style="text-decoration: none;">
 					<p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More &nbsp; <svg class="svg_icon_arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 25px; height: 25px; ">
-							<path fill="#cf1a1f"  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+							<path fill="#cf1a1f" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
 						</svg>
 					</p>
 				</a>
@@ -1574,7 +1574,7 @@
 			<div class="d-flex flex-row justify-content-center mt-4">
 				<a href="blog.php" style="text-decoration: none;">
 					<p class="view_more_btn d-md-none">View More <svg class="svg_icon_arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 25px; height: 25px; ">
-							<path fill="#cf1a1f"  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+							<path fill="#cf1a1f" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
 						</svg></p>
 				</a>
 			</div>
@@ -1817,125 +1817,93 @@
 		</div>
 	</section>
 
-	<footer class="ftco-footer ftco-bg-dark ftco-section">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-5">
-						<img src="./images/logo.png" alt="Your Logo" width="150">
-						<p class="mt-4">Aruna Hospital is the best multi-speciality hospital in Kakinada, providing
-							treatment to all
-							types of health problems following modern approach.</p>
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-							<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61552474136305"
-									target="_blank"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.instagram.com/aruna_hospital_kakinada/"
-									target="_blank"><span class="icon-instagram"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.youtube.com/channel/UCxqTQfOzRZLO7gNJQSgTGIw"
-									target="_blank"><span class="icon-youtube-play"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.linkedin.com/in/aruna-hospitals/"
-									target="_blank"><span class="icon-linkedin"></span></a></li>
-							<li class="ftco-animate"><a href="https://in.pinterest.com/arunahospitalkakinada2023/"
-									target="_blank"><span class="icon-pinterest"></span></a></li>
-							<li class="ftco-animate"><a href="https://twitter.com/ArunaHospitals"><span
-										class="icon-twitter"></span></a></li>
-						</ul>
-					</div>
+	
 
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-5 ml-md-4">
-						<h2 class="ftco-heading-2">Our Menu</h2>
-						<ul class="list-unstyled">
-							<li><a href="index.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-							<li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a>
-							</li>
-							<li><a href="doctor.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Doctors</a>
-							</li>
-							<li><a href="department.html"><span
-										class="ion-ios-arrow-round-forward mr-2"></span>Departments</a></li>
-							<li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-5">
-						<h2 class="ftco-heading-2">Reach Us</h2>
-						<div class="block-23 mb-3">
-							<ul>
-								<li><span class="icon icon-map-marker"></span><span class="text">8-19-14/5, Gandhi
-										Nagar, Ontimamidi Jn., Chagantivari Street,, KAKINADA-533004</span></li>
-								<li>
-									<span class="icon icon-phone"></span>
-									<a href="tel:+91 79979 90181" class="mb-0">
-										<span class="text">+91 79979 90181</span>
-									</a>
-									<a href="tel:+91 94937 40513" class="mb-0">
-										<span class="text">+91 94937 40513</span>
-									</a>
-								</li>
-								<li>
-									<span class="icon icon-envelope"></span>
-									<a href="mailto:info@arunahospital.com" class="mb-0">
-										<span class="text">info@arunahospital.com</span>
-									</a>
-									<a href="mailto:arunahospital1@gmail.com" class="mb-0">
-										<span class="text">arunahospital.999@gmail.com</span>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+		
+		<footer class="ftco-footer ftco-bg-dark ftco-section mt-5">
+		<div class="container footer_aruna">
+		  <div class="row">
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-5">
+				<img src="./images/logo.png" alt="Your Logo" width="150">
+				<p class="mt-4">Aruna Hospital is the best multi-speciality hospital in Kakinada, providing
+				  treatment to all
+				  types of health problems following modern approach.</p>
+				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+				  <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61552474136305" target="_blank"><span class="icon-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.instagram.com/aruna_hospital_kakinada/" target="_blank"><span class="icon-instagram"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.youtube.com/channel/UCxqTQfOzRZLO7gNJQSgTGIw" target="_blank"><span class="icon-youtube-play"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.linkedin.com/in/aruna-hospitals/" target="_blank"><span class="icon-linkedin"></span></a></li>
+				  <li class="ftco-animate"><a href="https://in.pinterest.com/arunahospitalkakinada2023/" target="_blank"><span class="icon-pinterest"></span></a></li>
+				  <li class="ftco-animate"><a href="https://twitter.com/ArunaHospitals"><span class="icon-twitter"></span></a></li>
+				</ul>
+			  </div>
 			</div>
-			<div class="footer-area-bottom theme-bg">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-8 col-lg-8 col-md-8 col-12">
-							<div class="footer-widget__copyright">
-								<span style="color:#0C0531"> ©2024 Aruna Hospital. <i>All Rights Reserved. Designed &
-										Developed by <a href="https://bhavicreations.com/" target="_blank"
-											class="font-weight-bold" style="text-decoration: none; ">Bhavi
-											Creations</a></i></span>
-							</div>
-						</div>
-						<div class="col-xl-4 col-lg-4 col-md-4 col-12">
-							<div class="footer-widget__copyright-info info-direction">
-								<ul class="d-flex align-items-center">
-									<a href="terms.html" style="text-decoration: none; ">Terms and conditions &nbsp;
-										&nbsp; &nbsp;</a>
-									<a href="privacy.html" style="text-decoration: none; ">Privacy policy</a>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-5 ml-md-4">
+				<h2 class="ftco-heading-2">Our Menu</h2>
+				<ul class="list-unstyled">
+				  <li><a href="index.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+				  <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+				  <li><a href="doctor.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Doctors</a></li>
+				  <li><a href="department.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Departments</a></li>
+				  <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+				</ul>
+			  </div>
 			</div>
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-5">
+				<h2 class="ftco-heading-2">Reach Us</h2>
+				<div class="block-23 mb-3">
+				  <ul>
+					<li><span class="icon icon-map-marker"></span><span class="text">8-19-14/5, Gandhi Nagar, Ontimamidi Jn., Chagantivari Street,, KAKINADA-533004</span></li>
+					<li>
+					  <span class="icon icon-phone"></span>
+					  <a href="tel:+91 79979 90181" class="mb-0">
+						<span class="text">+91 79979 90181</span>
+					  </a>
+					  <a href="tel:+91 94937 40513" class="mb-0">
+						<span class="text">+91 94937 40513</span>
+					  </a>
+					</li>
+					<li>
+					  <span class="icon icon-envelope"></span>
+					  <a href="mailto:info@arunahospital.com" class="mb-0">
+						<span class="text">info@arunahospital.com</span>
+					  </a>
+					  <a href="mailto:arunahospital1@gmail.com" class="mb-0">
+						<span class="text">arunahospital.999@gmail.com</span>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <section class="bhavi_branding">
+			<div class="container">
+			  <div class="row pt-2 d-flex align-items-center"  padding: 10px 0; width: 100%;">
+				<div class="col-md-6 col-12">
+				  <div class="footer-widget__copyright-info">
+					<p class="last_text mb-0">
+					  <a href="terms.html" style="text-decoration: none; color: #ffffff;">Terms & Conditions</a>
+					  <a href="privacy.html" style="text-decoration: none; color: #ffffff;">Privacy & Policy</a>
+					</p>
+				  </div>
+				</div>
+				<div class="col-md-6 col-12 d-flex justify-content-end align-items-center">
+				  <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
+					<p class="mini_text last_text mb-0">
+					  Branding By @
+					</p>
+					<img src="images/bhavi-logo/bhavi.png" class="img-fluid brand_image" alt="" style="width: 50px; height: 50px;">
+				  </a>
+				</div>
+			  </div>
+			</div>
+		  </section>
 		</div>
-	</footer>
-
-	<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
-		aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-lg">
-			<div class="modal-content">
-				<div class="modal-header popup-div">
-					<button type="button" class="close popup-div-close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-
-					<img src="images/best-multispeciality-hospital-in-kakinada-aruna-hospital.png" class="img-fluid"
-						alt="best-multispeciality-hospital">
-					<div class="text-center m-4">
-						<a href="appointment.html" class="btn btn-secondary">Book Appointment</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>  
-
+	  </footer>
 	<!-- WhatsApp link -->
 	<a href="https://api.whatsapp.com/send?phone=919493740513" class="whatsapp-link" target="_blank">
 		<i class="icon-whatsapp"></i>

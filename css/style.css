@@ -12981,7 +12981,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #141313;
-  padding: 6em 0;
+  /* padding: 6em 0; */
 }
 
 .ftco-footer .ftco-footer-widget {
@@ -12992,7 +12992,7 @@ textarea.form-control {
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
   color: #fff;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   font-size: 22px;
   font-weight: 700;
 }
@@ -14235,4 +14235,14 @@ textarea.form-control {
     margin-left:70% !important;
   }
  
+}
+
+
+
+
+
+
+.footer_aruna{
+  margin-bottom: -100px;
+  margin-top: -100px;
 }
