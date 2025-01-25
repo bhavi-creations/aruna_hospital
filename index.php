@@ -60,7 +60,7 @@
 
 </head>
 
-<>
+ 
 	<section class="top-section d-lg-block d-none ">
 		<div class="container">
 			<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
@@ -173,31 +173,27 @@
 
 	<section class="home-slider owl-carousel mb-5 border-0">
 
-		<!-- <div class="slider-item" >
-				<img src="images/festival_sliders/ganesh_festivel.png" class="img-fluid" alt="">
-		</div> -->
-		<!-- <div class="slider-item" >
-				<img src="images/festival_sliders/ARUNA DASARA.png" class="img-fluid" alt="">
-		</div> -->
+		 
+		<div class="slider-item" >
+				<img src="images/festival_sliders/republicday.png" class="img-fluid" alt="">
+		</div>
 
 
 		<div class="slider-item  ">
-			<img src="images/best-gynecological-services-in-kakinada-aruna-hospital.png" class="img-fluid" alt="">
+			<img src="images/sliders/1.png" class="img-fluid" alt="">
 
 		</div>
 
-		<div class="slider-item">
-			<img src="images/best-laser-surgeries-in-kakinada-aruna-hospital.png" class="img-fluid" alt="">
+		<div class="slider-item  ">
+			<img src="images/sliders/2.png" class="img-fluid" alt="">
 
 		</div>
-
-		<div class="slider-item">
-			<img src="images/Best-multi-services-hospital-in-kakinada-aruna-hospital-ntr.png" class="img-fluid" alt="">
+		<div class="slider-item  ">
+			<img src="images/sliders/3.png" class="img-fluid" alt="">
 
 		</div>
-
-		<div class="slider-item">
-			<img src="images/best-laproscopic-&-gastro-surgery-in-kakinada-aruna-hospital.png" class="img-fluid" alt="">
+		<div class="slider-item  ">
+			<img src="images/sliders/4.png" class="img-fluid" alt="">
 
 		</div>
 

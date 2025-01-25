@@ -55,17 +55,17 @@
 }
 
 /* Default height for screens wider than 768px */
-.owl-carousel.home-slider,
+/* .owl-carousel.home-slider,
 .owl-carousel.home-slider .slider-item {
     height: 800px !important;
-}
+} */
 
 /* Adjust height for screens between 576px and 768px */
 @media (min-width: 576px) and (max-width: 768px) {
-    .owl-carousel.home-slider,
+    /* .owl-carousel.home-slider,
     .owl-carousel.home-slider .slider-item {
         height: 500px !important;
-    }
+    } */
 
     .hero-wrap.hero-wrap-2{
         height: 200px !important;
@@ -74,10 +74,10 @@
 
 /* Adjust height for screens less than 576px (mobile) */
 @media (max-width: 575px) {
-    .owl-carousel.home-slider,
+    /* .owl-carousel.home-slider,
     .owl-carousel.home-slider .slider-item {
         height: 200px !important;
-    }
+    } */
     
     .hero-wrap.hero-wrap-2{
         height: 120px !important;
