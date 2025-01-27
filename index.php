@@ -174,9 +174,9 @@
 	<section class="home-slider owl-carousel mb-5 border-0">
 
 		 
-		<div class="slider-item" >
+		<!-- <div class="slider-item" >
 				<img src="images/festival_sliders/republicday.png" class="img-fluid" alt="">
-		</div>
+		</div> -->
 
 
 		<div class="slider-item  ">
