@@ -57,7 +57,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/custom.css">
 	<script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
-
+	<link rel="canonical" href="https://arunahospital.org/" />
 </head>
 
  
