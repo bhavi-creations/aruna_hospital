@@ -17,7 +17,8 @@
 	Best plastic surgery hospital in kakinada,
 	best neurologist in kakinada,
 	">
-
+	
+	<link rel="canonical" href="https://arunahospital.org/" /> 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0T419JMFR"></script>
 	<script>
@@ -57,7 +58,6 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/custom.css">`
 	<script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
-	<link rel="canonical" href="https://arunahospital.org/" /> 
 </head>
 
  
