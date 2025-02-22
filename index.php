@@ -58,6 +58,59 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/custom.css">`
 	<script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
+
+	<?php
+// Define hospital details dynamically
+$hospital_name = "Aruna Hospital";
+$hospital_url = "https://arunahospital.org/";
+$hospital_address = [
+    "streetAddress" => "Gandhi Nagar, Ontimamidi Jn., Chagantivari Street",
+    "addressLocality" => "Kakinada",
+    "addressRegion" => "Andhra Pradesh",
+    "postalCode" => "533004",
+    "addressCountry" => "India"
+];
+$hospital_phone = ["+91 79979 90181", "+91 94937 40513"];
+$hospital_logo = "https://arunahospital.org/logo.png"; // Update with actual logo URL from website
+$hospital_description = "Aruna Hospital in Kakinada provides advanced medical care with expert doctors and modern facilities.";
+$hospital_specialties = ["Cardiology", "Neurology", "Orthopedics", "Pediatrics"]; // Add relevant specialties
+$hospital_opening_hours = [
+    "Monday-Friday" => "09:00-18:00",
+    "Saturday" => "09:00-14:00",
+    "Sunday" => "Closed"
+];
+
+// Convert opening hours to Schema.org format
+$opening_hours_array = [];
+foreach ($hospital_opening_hours as $day => $time) {
+    $opening_hours_array[] = "$day $time";
+}
+
+// Generate JSON-LD Schema Markup
+$schema_data = [
+    "@context" => "https://schema.org",
+    "@type" => "Hospital",
+    "name" => $hospital_name,
+    "url" => $hospital_url,
+    "logo" => $hospital_logo,
+    "description" => $hospital_description,
+    "telephone" => $hospital_phone,
+    "address" => [
+        "@type" => "PostalAddress",
+        "streetAddress" => $hospital_address["streetAddress"],
+        "addressLocality" => $hospital_address["addressLocality"],
+        "addressRegion" => $hospital_address["addressRegion"],
+        "postalCode" => $hospital_address["postalCode"],
+        "addressCountry" => $hospital_address["addressCountry"]
+    ],
+    "medicalSpecialty" => $hospital_specialties,
+    "openingHours" => $opening_hours_array
+];
+
+?>
+<script type="application/ld+json">
+<?= json_encode($schema_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES); ?>
+</script>
 </head>
 
  
