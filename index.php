@@ -227,9 +227,9 @@ $schema_data = [
 	<section class="home-slider owl-carousel mb-5 border-0">
 
 		 
-		<!-- <div class="slider-item" >
-				<img src="images/festival_sliders/republicday.png" class="img-fluid" alt="">
-		</div> -->
+		<div class="slider-item" >
+				<img src="images/festival_sliders/mahashivratri.jpeg" class="img-fluid" alt="">
+		</div>
 
 
 		<div class="slider-item  ">
